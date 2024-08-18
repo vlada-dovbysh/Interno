@@ -1,0 +1,37 @@
+:root {
+    --title-color: #292F36;
+    --text-color: #4D5053;
+    --accent-color: #CDA274; 
+    --background-color: #FFFFFF;
+    --section-background: #F4F0EC;
+    --blogs-background: #E7E7E7;
+    --border-footer: #E5E5E5;
+    --header-color: #000000;
+}
+
+body {
+    font-family: Jost;
+    background-color: var(--background-color);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main-hero {
+    background-image: url(../img/hero.jpg);
+}
+
+.opinions {
+    background-color: var(--section-background);
+}
+
+.indicators {
+    background-color: var(--section-background);
+}
+
+.connect {
+    background-color: var(--title-color);
+}
