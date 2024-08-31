@@ -28,6 +28,7 @@ body {
 .header-box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .nav-list {
@@ -98,6 +99,7 @@ body {
     border-radius: 18px;
     gap: 20px;
     align-items: center;
+    padding-left: 28px;
 }
 
 .btn-textt {
@@ -106,8 +108,6 @@ body {
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.72px;
-    padding-left: 28px;
-    width: 106px;
 }
 
 .services {
@@ -214,12 +214,12 @@ body {
 }
 
 .design-tel {
-    padding-top: 10.2px;
-    padding-right: 265px;
-    padding-bottom: 39.8px;
+    margin-top: 10.2px;
+    margin-right: 265px;
+    margin-bottom: 50px;
     display: flex;
+    align-items: center;
     width: 267px;
-    margin-bottom: 10.2px;
 }
 
 .tel-info {
@@ -247,7 +247,6 @@ body {
     font-weight: 400;
     line-height: 1.5; 
     letter-spacing: 0.22px;
-    padding-bottom: 10.8px;
     width: 154px;
 }
 
@@ -331,13 +330,8 @@ body {
 
 .people {
     gap: 20px;
-    padding-right: 49.12px;
     display: flex;
     margin-bottom: 25.39px;
-}
-
-.david-p {
-    padding-right: 47.36px;
 }
 
 .people-img {
@@ -478,10 +472,11 @@ body {
 
 .indicators {
     background-color: var(--section-background);
-    height: 475px;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .indicators-list {
@@ -524,7 +519,7 @@ body {
 }
 
 .blogs {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .blogs-tt {
@@ -532,7 +527,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 15px;
+    margin-top: 15px;
     margin-bottom: 70px;
 }
 
@@ -591,7 +586,7 @@ body {
 
 .example-dt {
     display: flex;
-    padding-top: 9.59px;
+    margin-top: 9.59px;
     align-items: center;
     justify-content: space-between;
 }
@@ -618,18 +613,20 @@ body {
     height: 52px;
 }
 
-.connect-position {
-    display: flex;
-    justify-content: center; 
+.connect {
+    padding-top: 100px;
+    padding-bottom: 80px;
 }
 
-.connect {
+.connect > .container {
     background-color: var(--title-color);
-    padding-top: 100px;
-    padding-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding-top: 100.2px;
+    padding-bottom: 79.8px;
     border-radius: 70px;
-    margin-top: 100.2px;
-    margin-bottom: 79.8px;
 }
 
 .connect-title {
@@ -681,9 +678,13 @@ body {
     width: 140px;
 }
 
+.footer-lists {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
 .footer-list {
     display: flex;
-    padding-bottom: 80px;
 }
 
 .item-mini {
@@ -702,7 +703,7 @@ body {
     padding-bottom: 123.8px;
 }
 
-.logo-img {
+.logo-footer {
     margin-bottom: 15px;
 }
 
@@ -759,7 +760,6 @@ body {
     line-height: 1.5; 
     letter-spacing: 0.22px;
     width: 124px;
-    padding-right: 26.8px;
     display: flex;
     flex-wrap: nowrap;
 }
